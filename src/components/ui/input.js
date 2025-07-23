@@ -1,0 +1,1 @@
+export const Input = ({ placeholder, value, onChange, className }) => <input className={`border px-3 py-2 rounded w-full ${className}`} placeholder={placeholder} value={value} onChange={onChange} />;
